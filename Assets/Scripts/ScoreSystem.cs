@@ -31,10 +31,13 @@ public class ScoreSystem : MonoBehaviour
             }
         }
 
-    
 
-    score += 1;
+
+        score += 1;
         scoreText.SetText(score.ToString());
         //Modifie le texte du canva
     }
+
+
+   
 }
